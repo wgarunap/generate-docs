@@ -10,5 +10,5 @@ Required `go` installation to compile the binary
 ```bash
 make test
 
-open build/spec/index.html
+open /docs/index.html
 ```

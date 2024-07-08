@@ -36,7 +36,7 @@ func main() {
 	}
 
 	// Create the directory if it doesn't exist
-	err = os.MkdirAll(output, 0755)
+	err = os.MkdirAll(output, 0777)
 	if err != nil {
 		fmt.Println("Error creating directory:", err)
 		return
