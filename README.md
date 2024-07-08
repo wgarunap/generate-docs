@@ -12,3 +12,5 @@ make test
 
 open /docs/index.html
 ```
+
+Github Pages Url -> https://wgarunap.github.io/generate-docs
