@@ -25,7 +25,6 @@ func init() {
 func main() {
 
 	htmlContent, err := scalar.ApiReferenceHTML(&scalar.Options{
-		//CDN:     "https://raw.githubusercontent.com/wgarunap/generate-docs/master/static/script/api-reference.js",
 		SpecURL: filepath,
 		CustomOptions: scalar.CustomOptions{
 			PageTitle: "API Documentation",
