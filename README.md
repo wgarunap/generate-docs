@@ -7,10 +7,12 @@ This is a sample project to generate api documentations based on open-api spec.
 
 Required `go` installation to compile the binary
 
+Clone the project and Run
+
 ```bash
 make test
 
-open /docs/index.html
+open ./docs/index.html
 ```
 
 Github Pages Url -> https://wgarunap.github.io/generate-docs
